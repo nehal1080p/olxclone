@@ -1,0 +1,321 @@
+.container{
+    height: 12000px;
+    width: 1350px;
+  margin: auto;
+ border:  1px solid rgb(222, 238, 252);
+
+
+}
+#parent{
+    border: none;
+    height: 12000px;
+    width: 1320px;
+justify-content: center;
+  margin: auto;
+ 
+}
+
+
+
+
+
+#olxnav{
+    height: 53px;
+   border-top-left-radius:14px ;
+   border-top-right-radius:14px ;
+   margin-top: 5px;
+   margin-left: 92px;
+   cursor: pointer; 
+   margin-right: 5px;
+  
+
+}
+
+.nav1{
+  display: flex;
+    height: 55px;
+    background-color: rgb(222, 238, 252);
+   width: 1320px;
+   position :fixed ;
+
+}
+
+.nav2{
+  display: flex;
+    height: 80px;
+    background-color: rgb(254, 255, 255);
+    border-bottom: solid;
+   border-width: 1px;
+   border-color: rgb(172, 170, 170);
+   width: 1320px;
+  
+   
+
+}
+.sticky{
+
+    position:relative;
+    
+}
+.ndiv2{
+     height: 80px;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      margin-top: 55px;
+    width: 1280px;
+
+
+}
+
+
+
+.ndiv1{
+    display: flex;
+    background-color: #d5eeff;
+ width: 12800px;
+
+}
+
+.moto{height: 43px;
+background-color:rgb(222, 238, 252) ;
+border:none ;
+cursor: pointer;
+font-weight: 700;
+font-size: 17px;
+}
+
+.prop{ 
+    height: 43px;
+background-color:rgb(222, 238, 252) ;
+border:none ;
+cursor: pointer;
+font-size: 17px;
+font-weight: 700;
+
+}
+
+
+.log{
+margin-left:590px ;
+background-color: rgb(222, 238, 252)  ;
+border: none;
+cursor: pointer;
+margin-right: 9px;
+font-size: 18px;
+text-decoration: underline;
+}
+
+.sell{
+    
+height: 49px;
+margin-top: 2px;
+width: 110px;
+border-radius: 27px;
+border: 5px solid;
+background-color: white;
+border-color: #d8d801 #0098fd #0004fd ;
+font-weight:  solid;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+cursor: pointer;
+
+}
+
+#loc{
+    margin-left: 110px;
+   margin-top: 15px; 
+   height: 50px;
+   border-color:rgb(110, 109, 109); ;
+   width: 370px;
+   border-radius: 7px;
+   margin-right: 20px;
+   cursor: pointer;
+   padding-left: 20px;
+}
+#search{
+    width: 530px;
+    height: 45px;
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0;
+    border-color: rgb(194, 190, 190);
+    margin-top: 15px;
+    font-size:16px ;
+}
+
+.searchb{
+    height:45px ;
+    width: 120px;
+    margin-right: 50px;
+    margin-top: 15px;
+     border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #002f34;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttondiv{
+   display: flex;
+   margin-left: 110px;
+   position:static;
+   margin-top: 130px;
+   
+}
+
+#cat{
+    height: 45px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    margin-top: 5px;
+    color: #002f34;
+    cursor: pointer;
+
+}
+ 
+.buttondiv button{height: 45px;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 4px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: 16px;
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+
+}
+.phonediv1{
+height: 200px;
+    width: 1320px;
+}
+ .phonediv2{
+height: 200px;
+margin-bottom: 39px;
+width: 1320px;
+ }
+
+#phone{
+cursor: pointer;
+height: 200px;
+    width: 1320px;
+    
+    }
+ 
+.btns{
+    margin-left: 155px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.btns1{
+    margin-left: 155px;
+}
+
+.buton{
+    width: 110px;
+    height: 110px;
+    margin:  10px;
+    border: none;
+    cursor: pointer;
+    background: #f1f2f3;
+    border-radius: 7px;
+}
+
+#images{
+height: 100px;
+width: 100px;
+}
+
+
+.arth2viewmorediv{
+height: 50px;
+width: 1320px;
+display: flex;
+background-color: #ffffff;
+margin-top: 80px;
+gap: 940px;
+
+
+}
+
+
+.arth2{ 
+margin-left: 38px;
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+.viewmoreb{
+border: none;
+    
+    color: #0004fd;
+    background-color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.artdiv{
+margin: 16px;
+display: flex;
+
+
+
+}
+
+article{
+   margin: 7px;
+   cursor: pointer;
+    
+    
+}
+
+.imgartdiv{
+height: 350px;
+width: 297px;
+
+}
+
+#images2{
+height: 350px;
+width: 297px;
+margin-bottom: 0px;
+border: 1px solid #d3d3d3;
+
+}
+
+
+.artinfo{
+
+width: 297px ;
+height: 170px;
+border: 1px solid #d3d3d3;
+}
+
+.arth{
+    color: #012529;
+margin-left: 8px;
+}
+
+.artp{
+    margin-left: 5px;
+    color: rgb(121, 121, 121);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+
+
+}
+
+.artp2{
+margin-left: 5px;
+color: rgb(121, 121, 121);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+}
+
+.www{
+
+    margin-top: 60px
+}
